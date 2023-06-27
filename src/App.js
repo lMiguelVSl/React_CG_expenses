@@ -13,7 +13,7 @@ function App() {
     <>
       <div>
         <h2>Let's get started!</h2>
-        <ExpenseItem />
+        <ExpenseItem Name={items[0].Name} Date={items[0].Date} Price={items[0].Price} />
       </div>
     </>
 
